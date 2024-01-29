@@ -1,0 +1,27 @@
+.container {
+    border: 2px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    border-spacing: 0;
+    font-size: 15px;
+}
+
+.header_row, .body_row {
+    height: 30px;
+}
+
+.header_data {
+    padding: 0 5px;
+    color: gray;
+    font-weight: 500;
+}
+
+.body_data {
+    border-top: 2px solid lightgray;
+    padding: 0 5px;
+    font-weight: 500;
+}   
+
+.body_row:hover {
+    background-color: whitesmoke;
+}
